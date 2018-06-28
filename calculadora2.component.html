@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Calcu</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css"/>>
+  </head>
+
+  
+    <body>
+      
+      <h1 text align="center" >Calculadora</h1>
+      
+<div align="center">
+  <input type="number" (ngModel)="num1" placeholder="digite un número">
+  <input type="number" (ngModel)="num2" placeholder="digite un número">
+</div>
+<br />
+<div align="center">
+  <button (click)="suma()">Suma (+)</button>
+  <button (click)="resta()">Resta ( - )</button>
+  <button (click)="multiplicacion()">Multiplicacion ( x )</button>
+  <button (click)="division()">Division ( / )</button>
+</div>
+<div>
+  RESULTADO:{{resultado}}
+</div>
+    </body>
+ 
+</html> 
+
